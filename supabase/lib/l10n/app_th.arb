@@ -1,0 +1,8 @@
+{
+  "@@locale": "th",
+  "errBookingExpired": "คำขอจองนี้หมดเวลาแล้ว",
+  "errForbidden": "คุณไม่มีสิทธิ์ทำรายการนี้",
+  "errVenueNotAvailable": "สถานที่นี้ยังไม่พร้อมรับการจองในขณะนี้",
+  "errInvalidContact": "กรุณากรอกชื่อและเบอร์โทรศัพท์",
+  "errInvalidTransition": "ไม่สามารถเปลี่ยนสถานะการจองนี้ได้"
+}
