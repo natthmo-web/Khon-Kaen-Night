@@ -1,0 +1,8 @@
+{
+  "@@locale": "en",
+  "errBookingExpired": "This booking request has expired.",
+  "errForbidden": "You don't have permission to do that.",
+  "errVenueNotAvailable": "This venue isn't taking bookings right now.",
+  "errInvalidContact": "Please enter your name and phone number.",
+  "errInvalidTransition": "This booking can't be changed to that status."
+}
