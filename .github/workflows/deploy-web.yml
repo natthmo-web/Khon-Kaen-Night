@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'apps/mobile/**'
+      - 'supabase/apps/mobile/**'
       - '.github/workflows/deploy-web.yml'
   workflow_dispatch:
 
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: apps/mobile
+        working-directory: supabase/apps/mobile
     steps:
       - uses: actions/checkout@v4
 
@@ -31,8 +31,7 @@ jobs:
           channel: stable
           cache: true
 
-      # Safety net: if apps/mobile has no web/ folder yet, generate it (index.html, manifest, icons).
-      # Commit the generated web/ folder to the repo so builds are reproducible.
+      # Safety net: if supabase/apps/mobile has no web/ folder yet, generate it (index.html, manifest, icons).
       - name: Add web platform if missing
         run: |
           if [ ! -d web ]; then
@@ -68,7 +67,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: apps/mobile/build/web
+          path: supabase/apps/mobile/build/web
 
   deploy:
     needs: build
