@@ -1,0 +1,146 @@
+{
+  "@@locale": "en",
+  "appName": "Khon Kaen Night",
+  "navVenues": "Venues",
+  "navBookings": "Bookings",
+  "navAlerts": "Alerts",
+  "navProfile": "Profile",
+  "venuesTitle": "Tonight in Khon Kaen",
+  "emptyVenues": "No venues yet.",
+  "errorLoading": "Something went wrong. Please try again.",
+  "retry": "Retry",
+  "demoBanner": "Demo Mode: sample data. Nothing is sent to a real venue.",
+  "demoTag": "Demo",
+  "demoSubmitted": "Demo Mode: this request was not sent to a real venue.",
+  "backLabel": "Back",
+  "openingHours": "Opening hours",
+  "facilities": "Facilities",
+  "selectTable": "Choose a table",
+  "bookTable": "Request a table",
+  "legendAvailable": "Available",
+  "legendUnavailable": "Unavailable",
+  "legendSelected": "Selected",
+  "availabilityUnknown": "Sign in to see which tables are free for your time.",
+  "noFloorPlan": "This venue has not published a floor plan yet.",
+  "noTablesFree": "No tables are free at this time.",
+  "pickTableFirst": "Please choose a table first.",
+  "selectedSummary": "Table {number}, seats {capacity}",
+  "@selectedSummary": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "capacity": {
+        "type": "int"
+      }
+    }
+  },
+  "requestDisclaimer": "This is a request. The booking is confirmed only when the venue accepts it.",
+  "ageNotice": "Alcohol is sold only to guests aged 20 or older. Please bring valid ID.",
+  "ageConfirm": "I am 20 or older",
+  "ageRequired": "Please confirm your age to continue.",
+  "trialDays": "{days} days left in the venue trial",
+  "@trialDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "trialExpiredTitle": "Trial ended",
+  "trialExpiredBody": "The trial for this venue has ended, so it cannot take new table requests right now.",
+  "errTrialExpired": "This venue cannot take new requests right now.",
+  "stepOf": "Step {step} of 4",
+  "@stepOf": {
+    "placeholders": {
+      "step": {
+        "type": "int"
+      }
+    }
+  },
+  "date": "Date",
+  "time": "Time",
+  "guests": "Guests",
+  "guestsCount": "{count} guests",
+  "@guestsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "durationNote": "Each request holds the table for 2 hours.",
+  "customerName": "Name",
+  "phone": "Phone",
+  "noteOptional": "Note (optional)",
+  "next": "Next",
+  "submitRequest": "Send request",
+  "pendingTitle": "Request sent",
+  "pendingBody": "The venue will confirm or decline your request. You will see the answer in Bookings and Alerts.",
+  "tableLabel": "Table",
+  "bookingRef": "Reference",
+  "reminder": "Remind me",
+  "reminderSet": "Reminder on",
+  "viewBookings": "View my bookings",
+  "shareBooking": "Share",
+  "copied": "Copied",
+  "errTableUnavailable": "That table was just taken. Please pick another.",
+  "errVenueClosed": "The venue is closed at that time.",
+  "errCapacity": "That table does not seat this many guests.",
+  "errInvalidInterval": "Please choose a time in the future.",
+  "errNotAuthenticated": "Please sign in first.",
+  "errNotCancellable": "This booking can no longer be cancelled.",
+  "errCancelWindow": "Confirmed bookings cannot be cancelled within 2 hours of the start time.",
+  "errRequired": "Please fill in this field.",
+  "errPhone": "Enter a valid phone number.",
+  "myBookings": "My bookings",
+  "emptyBookings": "No bookings yet.",
+  "rejectionReason": "Reason",
+  "cancelConfirmTitle": "Cancel this booking?",
+  "keepBooking": "Keep it",
+  "cancelBooking": "Cancel booking",
+  "statusPending": "Pending",
+  "statusConfirmed": "Confirmed",
+  "statusRejected": "Declined",
+  "statusCancelled": "Cancelled",
+  "statusExpired": "Expired",
+  "statusCompleted": "Completed",
+  "notifications": "Notifications",
+  "markAllRead": "Mark all read",
+  "alertsPaused": "Alerts are paused on this device. Turn them on in Profile.",
+  "emptyNotifications": "No notifications yet.",
+  "notifRequested": "New table request",
+  "notifConfirmed": "Your booking was confirmed",
+  "notifRejected": "Your booking was declined",
+  "notifCancelled": "A booking was cancelled",
+  "notifExpired": "A request expired",
+  "staffDesk": "Venue desk",
+  "noStaffBookings": "No open requests right now.",
+  "confirmAction": "Confirm",
+  "rejectAction": "Decline",
+  "reasonHint": "Reason for declining",
+  "sendRejection": "Send",
+  "signIn": "Sign in",
+  "signUp": "Create account",
+  "email": "Email",
+  "password": "Password",
+  "fullName": "Full name",
+  "signOut": "Sign out",
+  "haveAccount": "Already have an account? Sign in",
+  "noAccount": "New here? Create an account",
+  "authInvalid": "Email or password is incorrect.",
+  "authCheckEmail": "Check your email to confirm your account, then sign in.",
+  "authDemoHint": "Demo Mode: any email works. Use an email containing staff to try the venue desk.",
+  "passwordShort": "Use at least 8 characters.",
+  "language": "Language",
+  "langThai": "ไทย",
+  "langEnglish": "English",
+  "alertsOn": "Show alerts",
+  "guestProfile": "You are browsing as a guest.",
+  "openStaffDesk": "Open venue desk",
+  "callVenue": "Call",
+  "lineVenue": "LINE",
+  "directions": "Directions",
+  "reviews": "Reviews",
+  "noReviews": "No reviews yet."
+}
